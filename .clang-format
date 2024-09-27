@@ -1,0 +1,27 @@
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Allman
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakBeforeMultilineStrings: true
+BreakBeforeBinaryOperators: NonAssignment
+ColumnLimit: 180
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+DerivePointerAlignment: false
+IndentCaseLabels: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+PointerAlignment: Left
+SpaceAfterCStyleCast: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+UseCRLF: false
+WhitespaceSensitiveMacros:
+  - SWIG_FILE
+NamespaceIndentation: All
+AccessModifierOffset: -4
+LambdaBodyIndentation: OuterScope
